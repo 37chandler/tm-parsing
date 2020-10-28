@@ -1,9 +1,15 @@
-# Assignment: Parsing
+## Assignment: Parsing
 
-This repo has two notebooks in it. One introduces you to parsing with NLTK and includes
-our work for class in Week 11. In this work we're going to try to get a custom package that
-does SVO parsing working, which will also require us to install the Stanford Parser. 
+This repo has one notebook in it. It introduces you to parsing with `spaCy`, a
+tremendously powerful NLP package that we'll start using in the latter bit of the course. 
+This notebook introduces you (very briefly) to spaCy. I also recommend watching
+the [introductory video](https://www.youtube.com/watch?v=WnGPv6HnBok) to learn more. 
 
-The second notebook gets you started on the assignment, where I ask you to apply the SVO 
-parsing to the convention speeches to reveal the key themes of those speeches. 
+This notebook will get you started extracting Subject-Verb-Object entities from 
+a piece of text. 
 
+### Assignment
+
+In a notebook that you create, extract the SVOs from the Republican and Democratic 
+National Conventions. Report the top 25 SVOs from each convention and write a few
+sentences about what, if anything, you think we can glean from these lists. 
